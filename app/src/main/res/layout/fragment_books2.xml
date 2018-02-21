@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:fillViewport="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/b1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_books2"
+            android:onClick="onClick"
+            android:padding="50dp" />
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gvbnvnvnvnvnbvnbvnvbnvbvbn" />
+        <ImageButton
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:id="@+id/b2"
+            android:background="@drawable/ic_menu_books2"/>
+        <TextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gvbnvnvnvnvnbvnbvnvbnvbvbn" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
